@@ -1,2 +1,2 @@
-# GifTastic
-Homework 6
+# TriviaGame
+Homework 5
