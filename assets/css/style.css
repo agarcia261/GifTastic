@@ -21,3 +21,33 @@ body{
 }
 
 }
+
+@media screen and (max-width: 600px) {
+    .container-left{
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        float: left;
+    }
+    .container-right{
+        text-align: center;
+
+        align-content: center;
+        width: 100%;
+        float: left;
+    }
+    .header-space{
+        width: 90%;
+        align-content: center;
+        margin: auto;
+    }
+    .buttonsClass{
+        margin:5px;
+    }
+    .form-space{
+
+        width: 90%;
+        margin: 20px auto 10px auto;
+    }
+
+}
