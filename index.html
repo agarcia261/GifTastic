@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12">
-                    <h1 class="buttons"></h1>
+                    <h4 class="buttons"></h4>
                 </div>
             </div>
         </div>
@@ -34,11 +34,14 @@
         <div class="container container-right">
             <div class="row">
                 <div class="form-space">
-                    <form>
-                        Add an animal:<br>
-                        <input type="text" name="animal"><br>
-                        <input type="submit" value="Submit">
-                    </form>
+                        <form>
+                            <div class="form-group">
+                              <label for="animal">Add an animal::</label>
+                              <input type="text" class="form-control" id="form-input">
+                            </div>
+                            <button type="submit" id="submit-button" class="btn btn-default">Submit</button>
+                          </form>
+
                 </div>
             </div>
         </div>
