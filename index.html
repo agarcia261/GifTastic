@@ -18,7 +18,7 @@
 
 <body>
     <script src="assets/javascript/app.js"></script>
-
+    <div class="main-container">
         <div class="container">
             <div class="row header-space">
                 <div class="col-sm-12 col-md-12">
@@ -26,25 +26,34 @@
                 </div>
             </div>
         </div>
+        <div class="container container-right">
+                <div class="row">
+                    <div class="form-space">
+                            <form>
+                                <div class="form-group">
+                                  <label for="animal">Add an animal::</label>
+                                  <input type="text" class="form-control" id="form-input">
+                                </div>
+                                <button type="submit" id="submit-button" class="btn btn-default">Submit</button>
+                              </form>
+                    </div>
+                </div>
+            </div>
         <div class="container container-left">
             <div class="row gif-space">
 
             </div>
         </div>
-        <div class="container container-right">
-            <div class="row">
-                <div class="form-space">
-                        <form>
-                            <div class="form-group">
-                              <label for="animal">Add an animal::</label>
-                              <input type="text" class="form-control" id="form-input">
-                            </div>
-                            <button type="submit" id="submit-button" class="btn btn-default">Submit</button>
-                          </form>
 
+        <div class="container container-bottom hide">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 ">
+                    <button class="btn btn-default btn-lg" id="morePhotos">More Pictures</button>
                 </div>
             </div>
         </div>
+    </div>
+
 </body>
 
 </html>
